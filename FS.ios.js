@@ -1,6 +1,7 @@
 'use strict';
 
-var RNFSManager = require('NativeModules').RNFSManager;
+var React = require('react-native');
+var RNFSManager = React.NativeModules.RNFSManager;
 var Promise = require('bluebird');
 var base64 = require('base-64');
 
